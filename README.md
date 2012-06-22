@@ -8,8 +8,7 @@ Make your Alfred more powerful.
 **XAMPP Control** *(v1.0.0)* - [download here](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension 'XAMPP Control Download Link')  
 Start/Stop Apache & MySQL & FTP of XAMPP in Alfred.
 
-*Note:* You need root permission when using command like '`xampp reload`',  
-      run once in your Term.
+*Note:* You need root permission when using command like '`xampp reload`', run once in your Term.
     
     start         Start XAMPP (Apache, MySQL and eventually others)
     startapache   Start only Apache
