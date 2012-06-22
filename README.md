@@ -3,7 +3,9 @@ Alfred-Extensions
 Make your Alfred more powerful. 
 
 ----
-**XAMPP Control** *(v1.0.0)* - [download here](#)  
+
+![XAMPP Control Logo](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/icon.png 'XAMPP Control for Alfred Logo')  
+**XAMPP Control** *(v1.0.0)* - [download here](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension 'XAMPP Control Download Link')  
 Start/Stop Apache & MySQL & FTP of XAMPP in Alfred.
 
 *Note:* You need root permission when using command like '`xampp reload`',  
@@ -33,3 +35,7 @@ Start/Stop Apache & MySQL & FTP of XAMPP in Alfred.
     backup        Make backup file of your XAMPP config, log and data files
     
     fix_rights    Resets file permissions.
+
+![XAMPP Control Screenshot](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/screenshot.png 'XAMPP Control for Alfred Screenshot')
+
+----
