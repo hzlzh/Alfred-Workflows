@@ -7,35 +7,47 @@
 	<key>category</key>
 	<string>SCRIPTS</string>
 	<key>command</key>
-	<string># Note: You need root permission when using 
-# command like "xampp reload", run once in your Term.
+	<string># Note: You may need to input your ROOT password just once when using this extension.
+# To reset your ROOT password just run `xampp root`
 
-#	start         Start XAMPP (Apache, MySQL and eventually others)
-#	startapache   Start only Apache
-#	startmysql    Start only MySQL
-#	startftp      Start only ProFTPD
+# start Start XAMPP (Apache, MySQL and eventually others)
+# startapache Start only Apache
+# startmysql Start only MySQL
+# startftp Start only ProFTPD
 
-#	stop          Stop XAMPP (Apache, MySQL and eventually others)
-#	stopapache    Stop only Apache
-#	stopmysql     Stop only MySQL
-#	stopftp       Stop only ProFTPD
+# stop Stop XAMPP (Apache, MySQL and eventually others)
+# stopapache Stop only Apache
+# stopmysql Stop only MySQL
+# stopftp Stop only ProFTPD
 
-#	reload        Reload XAMPP (Apache, MySQL and eventually others)
-#	reloadapache  Reload only Apache
-#	reloadmysql   Reload only MySQL
-#	reloadftp     Reload only ProFTPD
+# reload Reload XAMPP (Apache, MySQL and eventually others)
+# reloadapache Reload only Apache
+# reloadmysql Reload only MySQL
+# reloadftp Reload only ProFTPD
 
-#	restart       Stop and start XAMPP
-#	security      Check XAMPP's security
+# restart Stop and start XAMPP
+# security Check XAMPP's security
 
-#	enablessl     Enable SSL support for Apache
-#	disablessl    Disable SSL support for Apache
+# enablessl Enable SSL support for Apache
+# disablessl Disable SSL support for Apache
 
-#	backup        Make backup file of your XAMPP config, log and data files
+# backup Make backup file of your XAMPP config, log and data files
 
-#	fix_rights    Resets file permissions.
-sudo /Applications/XAMPP/xamppfiles/xampp {query}</string>
+# fix_rights Resets file permissions.
+INPUT=`echo "{query}" | tr A-Z a-z`
+
+PASS=$(Authenticate.app/Contents/MacOS/Authenticate -get password)
+if [ $PASS = '' ] || [ $INPUT = 'root' ]
+then
+	Authenticate.app/Contents/MacOS/Authenticate
+else
+	PASS =$(Authenticate.app/Contents/MacOS/Authenticate -get password)
+	echo "Load Admin password successfully!"
+	echo $PASS | sudo -S sh -c "/Applications/XAMPP/xamppfiles/xampp {query}"
+fi</string>
 	<key>disabled</key>
+	<false/>
+	<key>escapedollar</key>
 	<false/>
 	<key>escapequery</key>
 	<true/>
@@ -54,6 +66,8 @@ sudo /Applications/XAMPP/xamppfiles/xampp {query}</string>
 	<key>keyword</key>
 	<string>xampp</string>
 	<key>logging</key>
+	<false/>
+	<key>multifileargs</key>
 	<false/>
 	<key>parameter</key>
 	<integer>3</integer>

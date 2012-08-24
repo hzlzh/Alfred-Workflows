@@ -5,10 +5,11 @@ Make your Alfred more powerful.
 ----
 
 ![XAMPP Control Logo](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/icon.png 'XAMPP Control for Alfred Logo')  
-**XAMPP Control** *(v1.0.0)* - [download here](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension 'XAMPP Control Download Link')  
+**XAMPP Control** *(v1.0.1)* - [download here](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension 'XAMPP Control Download Link')  
 Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on you will be no longer launch XAMPP in your Dock continually.  
 
-*Note:* You need root permission when using command like "`xampp reload`", run "`sudo /Applications/XAMPP/xamppfiles/xampp`" once in your Terminal with you password.  
+*Note:* # Note: You may need to input your admin **ROOT** password just once when using this extension. To reset your **ROOT** password just run `xampp root`  
+run `xampp {query}` from the command chart below.
    
     start         Start XAMPP (Apache, MySQL and eventually others)
     startapache   Start only Apache
@@ -38,3 +39,6 @@ Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on y
 ![XAMPP Control Screenshot](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/screenshot.png 'XAMPP Control for Alfred Screenshot')
 
 ----
+Release Note  
+`v1.0.1`  
+* Authenticate.app supported & root password auto-saved
