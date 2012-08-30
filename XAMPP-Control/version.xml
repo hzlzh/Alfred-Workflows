@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <update>
   <version>1.1</version>
-  <url>https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension</url>
+  <url>https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP-Control.alfredextension</url>
   <comments>#Authenticate.app supported + root password auto-saved #Extension Updater supported</comments>
 </update>

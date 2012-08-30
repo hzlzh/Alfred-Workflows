@@ -6,7 +6,7 @@ Make your Alfred more powerful.
 
 ![XAMPP Control Logo][1]
 
-**XAMPP Control** *(v1.1)* - [download here][2]
+**XAMPP-Control** *(v1.1)* - [download here][2]
 
 Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on you will be no longer launch XAMPP in your Dock continually.
 
@@ -51,6 +51,6 @@ Release Note
 * Authenticate.app supported & root password auto-saved
 * Extension Updater supported
 
- [1]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/icon.png "XAMPP Control for Alfred Logo"
- [2]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension "XAMPP Control Download Link"
- [3]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/screenshot.png "XAMPP Control for Alfred Screenshot"
+ [1]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP-Control/icon.png "XAMPP Control for Alfred Logo"
+ [2]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP-Control.alfredextension "XAMPP Control Download Link"
+ [3]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP-Control/screenshot.png "XAMPP Control for Alfred Screenshot"

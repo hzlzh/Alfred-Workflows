@@ -76,6 +76,6 @@ fi</string>
 	<key>subtitle</key>
 	<string>Start/Stop Apache &amp; MySQL &amp; FTP of XAMPP in Alfred.</string>
 	<key>title</key>
-	<string>XAMPP Control</string>
+	<string>XAMPP-Control</string>
 </dict>
 </plist>
