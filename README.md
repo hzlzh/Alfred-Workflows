@@ -1,16 +1,19 @@
-Alfred-Extensions
-=============
-Make your Alfred more powerful. 
+# Alfred-Extensions
 
-----
+Make your Alfred more powerful.
 
-![XAMPP Control Logo](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/icon.png 'XAMPP Control for Alfred Logo')  
-**XAMPP Control** *(v1.0.1)* - [download here](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension 'XAMPP Control Download Link')  
-Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on you will be no longer launch XAMPP in your Dock continually.  
+* * *
 
-*Note:* # Note: You may need to input your admin **ROOT** password just once when using this extension. To reset your **ROOT** password just run `xampp root`  
+![XAMPP Control Logo][1]
+
+**XAMPP Control** *(v1.1)* - [download here][2]
+
+Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on you will be no longer launch XAMPP in your Dock continually.
+
+*Note:* # Note: You may need to input your admin **ROOT** password just once when using this extension. To reset your **ROOT** password just run `xampp root`
+
 run `xampp {query}` from the command chart below.
-   
+
     start         Start XAMPP (Apache, MySQL and eventually others)
     startapache   Start only Apache
     startmysql    Start only MySQL
@@ -35,10 +38,19 @@ run `xampp {query}` from the command chart below.
     backup        Make backup file of your XAMPP config, log and data files
     
     fix_rights    Resets file permissions.
+    
 
-![XAMPP Control Screenshot](https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/screenshot.png 'XAMPP Control for Alfred Screenshot')
+![XAMPP Control Screenshot][3]
 
-----
-Release Note  
-`v1.0.1`  
+* * *
+
+Release Note
+
+`v1.1`
+
 * Authenticate.app supported & root password auto-saved
+* Extension Updater supported
+
+ [1]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/icon.png "XAMPP Control for Alfred Logo"
+ [2]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control.alfredextension "XAMPP Control Download Link"
+ [3]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP%20Control/screenshot.png "XAMPP Control for Alfred Screenshot"
