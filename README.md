@@ -6,7 +6,7 @@ Make your Alfred more powerful.
 
 Alfred 2 Theme - Name: Sublime Like [download here][9]
 
-
+![Sublime Like][10]
 
 * * *
 
