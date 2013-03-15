@@ -6,7 +6,27 @@ Make your Alfred more powerful.
 
 ![Shorten URL Logo][4]
 
-**Shorten URL** *(v1.1)* - [download here][5]
+**Shorten URL** *(v1.1)* - [download here][8] 
+
+This workflow support URL shortener like below.  
+**([Alfred 2] powerpack required)**
+
+    goo.gl/
+    bit.ly/
+    t.cn/
+    j.mp/
+    is.gd/
+    v.gd/
+    
+You can use Hotkey to trigger without open Alfred input window.
+
+![Shorten-URL-trigger][5]
+![Shorten-URL-notification][6]
+![Shorten-URL-workflow][7]
+
+(If you need more services to be added, please let me know.)
+
+====
 
 ![XAMPP Control Logo][1]
 
@@ -55,9 +75,20 @@ Release Note
 * Authenticate.app supported & root password auto-saved
 * Extension Updater supported
 
+## Credit
+Created by @[hzlzh](https://twitter.com/hzlzh 'Contact me on Twitter') under [MIT LICENSE](http://rem.mit-license.org/) 
+
+Post: [http://zlz.im/tag/alfred](http://zlz.im/tag/alfred)  
+Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
+
+
  [1]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-icon.png "XAMPP Control for Alfred Logo"
  [2]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/XAMPP-Control.alfredextension "XAMPP Control Download Link"
  [3]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-trigger.png "XAMPP Control for Alfred Screenshot"
  [4]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-icon.png
- [5]:
- [6]:
+ [5]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-trigger.png
+ [6]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-notification.png
+ [7]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-workflow.png
+ [8]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Shorten-URL.alfredworkflow "Download Shorten-URL.alfredworkflow"
+ 
+ [Alfred 2]: http://www.alfredapp.com/
