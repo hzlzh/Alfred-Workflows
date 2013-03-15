@@ -1,12 +1,16 @@
-# Alfred-Extensions
+# Alfred Workflows/Extensions
 
 Make your Alfred more powerful.
 
 * * *
 
+![Shorten URL Logo][4]
+
+**Shorten URL** *(v1.1)* - [download here][5]
+
 ![XAMPP Control Logo][1]
 
-**XAMPP-Control** *(v1.1)* - [download here][2]
+**XAMPP Control** *(v1.1)* - [download here][2]
 
 Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on you will be no longer launch XAMPP in your Dock continually.
 
@@ -51,6 +55,9 @@ Release Note
 * Authenticate.app supported & root password auto-saved
 * Extension Updater supported
 
- [1]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP-Control/icon.png "XAMPP Control for Alfred Logo"
- [2]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP-Control.alfredextension "XAMPP Control Download Link"
- [3]: https://github.com/hzlzh/Alfred-Extensions/raw/master/XAMPP-Control/screenshot.png "XAMPP Control for Alfred Screenshot"
+ [1]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-icon.png "XAMPP Control for Alfred Logo"
+ [2]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/XAMPP-Control.alfredextension "XAMPP Control Download Link"
+ [3]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-trigger.png "XAMPP Control for Alfred Screenshot"
+ [4]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-icon.png
+ [5]:
+ [6]:
