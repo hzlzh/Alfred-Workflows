@@ -26,7 +26,7 @@ You can use Hotkey to trigger without open Alfred input window.
 
 (If you need more services to be added, please let me know.)
 
-====
+* * *
 
 ![XAMPP Control Logo][1]
 
