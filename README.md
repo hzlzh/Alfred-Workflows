@@ -32,7 +32,6 @@ You can use Hotkey to trigger without open Alfred input window.
 
 ![Shorten-URL-trigger][5]
 ![Shorten-URL-notification][6]
-![Shorten-URL-workflow][7]
 
 (If you need more services to be added, please let me know.)
 
@@ -44,9 +43,10 @@ You can use Hotkey to trigger without open Alfred input window.
 
 [\[Download Link\]][SEO-Checker.alfredworkflow]    
 
-Check domain's PR, Alexa, etc  
+Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 ![SEO-Checker-input]
+![SEO-Checker-notification]
 
 (If you need more SEO services to be added, please let me know.)  
 
@@ -56,6 +56,8 @@ Check domain's PR, Alexa, etc
 [\[Download Link\]][XAMPP-Control.alfredextension]
 
 Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on you will be no longer launch XAMPP in your Dock continually.
+
+![XAMPP-Control-trigger]
 
 *Note:* # Note: You may need to input your admin **ROOT** password just once when using this extension. To reset your **ROOT** password just run `xampp root`
 
@@ -87,8 +89,6 @@ run `xampp {query}` from the command chart below.
     fix_rights    Resets file permissions.
     
 
-![XAMPP-Control-trigger]
-
 * * *
 
 Release Note
@@ -98,7 +98,7 @@ Release Note
 * Authenticate.app supported & root password auto-saved
 * Extension Updater supported
 
-## Credit
+## Credits
 Created by @[hzlzh](https://twitter.com/hzlzh 'Contact me on Twitter') under [MIT LICENSE](http://rem.mit-license.org/) 
 
 Post: [http://zlz.im/tag/alfred](http://zlz.im/tag/alfred)  
