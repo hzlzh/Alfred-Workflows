@@ -1,21 +1,25 @@
 # Alfred Workflows/Extensions/Themes
 
-Make your Alfred more powerful.
+Make your Alfred more powerful. **([Alfred 2] powerpack required)**  
 
 * * *
 
-Alfred 2 Theme - Name: Sublime Like [download here][9]
+## Sublime Like *(Alfred 2 Theme)*
+[\[Download Link\]][9]
+
+Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 ![Sublime Like][10]
 
 * * *
 
-![Shorten URL Logo][4]
+## Shorten URL *(v1.1)*
+![4]
 
-**Shorten URL** *(v1.1)* - [download here][8] 
+[\[Download Link\]][8]    
 
 This workflow support URL shortener like below.  
-**([Alfred 2] powerpack required)**
+
 
     goo.gl/
     bit.ly/
@@ -34,9 +38,22 @@ You can use Hotkey to trigger without open Alfred input window.
 
 * * *
 
-![XAMPP Control Logo][1]
+## SEO Checker *(v1.0)*
 
-**XAMPP Control** *(v1.1)* - [download here][2]
+![SEO-Checker-logo]
+
+[\[Download Link\]][SEO-Checker.alfredworkflow]    
+
+Check domain's PR, Alexa, etc  
+
+![SEO-Checker-input]
+
+(If you need more SEO services to be added, please let me know.)  
+
+## XAMPP Control *(v1.1)*
+![XAMPP Control Logo]
+
+[\[Download Link\]][XAMPP-Control.alfredextension]
 
 Start/Stop Apache & MySQL & FTP of XAMPP in Alfred with PowerPack. From now on you will be no longer launch XAMPP in your Dock continually.
 
@@ -70,7 +87,7 @@ run `xampp {query}` from the command chart below.
     fix_rights    Resets file permissions.
     
 
-![XAMPP Control Screenshot][3]
+![XAMPP-Control-trigger]
 
 * * *
 
@@ -88,16 +105,20 @@ Post: [http://zlz.im/tag/alfred](http://zlz.im/tag/alfred)
 Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 
 
- [1]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-icon.png "XAMPP Control for Alfred Logo"
- [2]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/XAMPP-Control.alfredextension "XAMPP Control Download Link"
- [3]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-trigger.png "XAMPP Control for Alfred Screenshot"
- [4]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-icon.png
- [5]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-trigger.png
- [6]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-notification.png
- [7]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-workflow.png
- [8]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Shorten-URL.alfredworkflow "Download Shorten-URL.alfredworkflow"
- [9]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Sublime-Like.alfredappearance
- [10]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Sublime-like.png
+[XAMPP Control Logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-icon.png "XAMPP Control for Alfred Logo"
+[XAMPP-Control.alfredextension]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/XAMPP-Control.alfredextension "XAMPP Control Download Link"
+[XAMPP-Control-trigger]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/XAMPP-Control-trigger.png "XAMPP Control for Alfred Screenshot"
+[4]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-icon.png
+[5]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-trigger.png
+[6]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-notification.png
+[7]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Shorten-URL-workflow.png
+[8]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Shorten-URL.alfredworkflow "Download Shorten-URL.alfredworkflow"
+[9]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Sublime-Like.alfredappearance
+[10]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Sublime-like.png
+[SEO-Checker-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-logo.png
+[SEO-Checker.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/SEO-Checker.alfredworkflow
+[SEO-Checker-input]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-input.png
+[SEO-Checker-notification]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-notification.png
+
  
- 
- [Alfred 2]: http://www.alfredapp.com/
+[Alfred 2]: http://www.alfredapp.com/
