@@ -58,14 +58,14 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 [\[Download Link\]][V2EX.alfredworkflow]
 
-一个给V2EXer用的Alfred 2 workflow.
-功能：
+一个给V2EXer用的Alfred 2 workflow.  
+目前功能有：
 
-	* 获取最新文章列表，指令：n 或 new
-	* 获取指定用户的文章列表，指令：@hzlzh
-	* 列表状态下按住`Command`键，可以只复制URL到剪切板
-	* 列表状态下按住`Opition`键，在搜索引擎中检索该文章
-	* 更多功能添加中...
+* 获取最新文章列表，指令：n 或 new
+* 获取指定用户的文章列表，指令：@hzlzh
+* 列表状态下按住`Command`键，可以只复制URL到剪切板
+* 列表状态下按住`Opition`键，在搜索引擎中检索该文章
+* 更多功能添加中...
 	
 ![V2EX-latest]
 
