@@ -67,7 +67,7 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 	* 列表状态下按住`Opition`键，在搜索引擎中检索该文章
 	* 更多功能添加中...
 	
-![V2EX-input]
+![V2EX-latest]
 
 ## XAMPP Control *(v1.1)*
 ![XAMPP Control Logo]
@@ -139,7 +139,7 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 [SEO-Checker-input]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-input.png
 [SEO-Checker-notification]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-notification.png
 [V2EX-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-logo.png
-[V2EX-input]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-input.png
+[V2EX-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-latest.png
 [V2EX.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/V2EX.alfredworkflow
  
 
