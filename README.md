@@ -50,6 +50,25 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 (If you need more SEO services to be added, please let me know.)  
 
+* * *
+
+## V2EX *(v1.0)*
+
+![V2EX-logo]
+
+[\[Download Link\]][V2EX.alfredworkflow]
+
+一个给V2EXer用的Alfred 2 workflow.
+功能：
+
+	* 获取最新文章列表，指令：n 或 new
+	* 获取指定用户的文章列表，指令：@hzlzh
+	* 列表状态下按住`Command`键，可以只复制URL到剪切板
+	* 列表状态下按住`Opition`键，在搜索引擎中检索该文章
+	* 更多功能添加中...
+	
+![V2EX-input]
+
 ## XAMPP Control *(v1.1)*
 ![XAMPP Control Logo]
 
@@ -119,6 +138,10 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 [SEO-Checker.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/SEO-Checker.alfredworkflow
 [SEO-Checker-input]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-input.png
 [SEO-Checker-notification]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-notification.png
+[V2EX-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-logo.png
+[V2EX-input]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-input.png
+[V2EX.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/V2EX.alfredworkflow
+ 
 
  
 [Alfred 2]: http://www.alfredapp.com/
