@@ -190,7 +190,7 @@ if($orig == 'n' || $orig == 'new' ){
             $int++;
         endforeach;
     endif;
-}else if ($orig == 'v') {
+}else if ($orig == 'v' || $orig == 'video') {
     $obj = load_data('http://www.geekpark.net/api?api_key=d7d1fe3f36fdb557f56ef72922a556b0&amp;api_sig=877b50598a81a1f86b36e00dba975ad8&amp;method=cast.clip&amp;limit=15&amp;offset=0&amp;day=3');
 
     $int = 1;
@@ -284,7 +284,8 @@ echo $wf-&gt;toxml();</string>
 
 一个给GeekPark 用户的Alfred 2 workflow.
 功能：
-	* 获取最新文章列表，指令：n 或 new
+	* 获取最新极客阅读，指令：n 或 new
+	* 获取最新极客广播，指令：v 或 video
 	* 列表状态下按住`Command`键，可以只复制URL到剪切板
 	* 列表状态下按住`Opition`键，在搜索引擎中检索该文章
 	* 更多功能添加中...

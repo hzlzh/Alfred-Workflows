@@ -52,6 +52,25 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 * * *
 
+## GeekPark *(v1.0)*
+
+![GeekPark-logo]
+
+[\[Download Link\]][GeekPark.alfredworkflow]
+
+一个给GeekPark用户的Alfred 2 workflow.  
+目前功能有：
+
+* 获取最新极客阅读，指令：n 或 new
+* 获取最新极客广播，指令：v 或 video
+* 列表状态下按住`Command`键，可以只复制URL到剪切板
+* 列表状态下按住`Opition`键，在搜索引擎中检索该文章
+* 更多功能添加中...
+	
+![GeekPark-latest]
+
+* * *
+
 ## V2EX *(v1.0)*
 
 ![V2EX-logo]
@@ -68,6 +87,8 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 * 更多功能添加中...
 	
 ![V2EX-latest]
+
+* * *
 
 ## XAMPP Control *(v1.1)*
 ![XAMPP Control Logo]
@@ -141,7 +162,9 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 [V2EX-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-logo.png
 [V2EX-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-latest.png
 [V2EX.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/V2EX.alfredworkflow
- 
+ [GeekPark-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-logo.png
+ [GeekPark.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/GeekPark.alfredworkflow
+ [GeekPark-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-screenshot.png
 
  
 [Alfred 2]: http://www.alfredapp.com/
