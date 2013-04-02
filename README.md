@@ -52,7 +52,7 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 * * *
 
-## GeekPark *(v1.0)*
+## GeekPark *(v1.1)*
 
 ![GeekPark-logo]
 

@@ -57,7 +57,7 @@
 				<key>modifiers</key>
 				<integer>524288</integer>
 				<key>modifiersubtext</key>
-				<string>搜索本条</string>
+				<string>在搜索引擎检索本条</string>
 			</dict>
 		</array>
 	</dict>
@@ -78,6 +78,10 @@
 				<integer>0</integer>
 				<key>argument</key>
 				<integer>1</integer>
+				<key>hotkey</key>
+				<integer>0</integer>
+				<key>hotmod</key>
+				<integer>0</integer>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -180,13 +184,13 @@ if($orig == 'n' || $orig == 'new' ){
     if($obj != null):
         foreach( $obj-&gt;articles as $post ):
             $post_id = $post-&gt;guid;
-
+            $post_author_name = $post-&gt;author-&gt;screen_name;
             $post_title = $post-&gt;title;
             $post_url = $post-&gt;url;
             $post_content = $post-&gt;abstract;
             $post_time = $post-&gt;publish_time;
             
-            $wf-&gt;result( $post_id, $post_url, $post_title.' ☀ '.date("m-d H:i", $post_time), $post_content, 'default.png'  );
+            $wf-&gt;result( $post_id, $post_url, $post_title.' @'.$post_author_name.' ☀ '.date("H:i m/d", $post_time), $post_content, 'default.png'  );
             $int++;
         endforeach;
     endif;
@@ -197,13 +201,13 @@ if($orig == 'n' || $orig == 'new' ){
     if($obj != null):
         foreach( $obj-&gt;articles as $post ):
             $post_id = $post-&gt;guid;
-
+            
             $post_title = $post-&gt;title;
             $post_url = $post-&gt;url;
             $post_content = $post-&gt;highlight;
             $post_time = $post-&gt;publish_time;
             
-            $wf-&gt;result( $post_id, $post_url, $post_title.' ☀ '.date("m-d H:i", $post_time), $post_content, 'default.png'  );
+            $wf-&gt;result( $post_id, $post_url, $post_title.' ☀ '.date("H:i m/d", $post_time), $post_content, 'default.png'  );
             $int++;
         endforeach;
     endif;
@@ -216,7 +220,7 @@ endif;
 
 echo $wf-&gt;toxml();</string>
 				<key>subtext</key>
-				<string>n或new: 获取最新极客阅读</string>
+				<string>按住`Command`键，可以只复制URL到剪切板</string>
 				<key>title</key>
 				<string>常用指令：n或new 获取最新极客阅读 | v 获得极客广播</string>
 				<key>type</key>
@@ -280,7 +284,7 @@ echo $wf-&gt;toxml();</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># GeekPark v1.0
+	<string># GeekPark v1.1
 
 一个给GeekPark 用户的Alfred 2 workflow.
 功能：
