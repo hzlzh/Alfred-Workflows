@@ -30,6 +30,10 @@ This workflow support URL shortener like below.
     
 You can use Hotkey to trigger without open Alfred input window.
 
+#### Tips:
+To use this workflow without copy/paste, just use Alfred trigger HotKey,  
+check out this wiki issue [\[#1\]](https://github.com/hzlzh/Alfred-Workflows/issues/1)
+
 ![Shorten-URL-trigger][5]
 ![Shorten-URL-notification][6]
 
