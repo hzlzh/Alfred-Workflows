@@ -13,7 +13,7 @@ Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 * * *
 
-## Shorten URL *(v1.1)*
+## Shorten URL *(v1.2)*
 ![4]
 
 [\[Download Link\]][8]    
@@ -28,12 +28,14 @@ This workflow support URL shortener like below.
     is.gd/
     v.gd/
     
-You can use Hotkey to trigger without open Alfred input window.
+You can use Hotkey to trigger without outpen Alfred input window.
 
 #### Tips:
-To use this workflow without copy/paste, just use Alfred trigger HotKey,  
-check out this wiki issue [\[#1\]](https://github.com/hzlzh/Alfred-Workflows/issues/1)
 
+* To use this workflow without copy/paste, just use Alfred trigger HotKey [\[#1\]](https://github.com/hzlzh/Alfred-Workflows/issues/1)  
+* How to custom your own service sort? [\[#2\]](https://github.com/hzlzh/Alfred-Workflows/issues/2)  
+
+ 
 ![Shorten-URL-trigger][5]
 ![Shorten-URL-notification][6]
 
