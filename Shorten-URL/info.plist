@@ -65,7 +65,7 @@
 				<integer>63</integer>
 				<key>script</key>
 				<string>'''
-Shorten URL v1.2
+Shorten URL v1.3
 
 Github: https://github.com/hzlzh/Alfred-Workflows
 Author: hzlzh (hzlzh.dev@gmail.com)
@@ -73,6 +73,7 @@ Twitter: @hzlzh
 Blog: https://zlz.im/Alfred-Workflows/
 '''
 
+from __future__ import print_function
 import urllib
 import urllib2
 import json
@@ -97,7 +98,7 @@ def getLink(type,service,url):
             url = service + terms
             data = urllib2.urlopen(url).read()
         except Exception, e:
-            print ''
+            print('')
         if type == 'bit.ly':
             result = json.loads(data)
             if(result["status_code"] == 500):
@@ -140,9 +141,9 @@ url = response['long_url']
 last_output = getLink(type,service,url)
 
 if ('http' in last_output):
-    print last_output
+    print(last_output, end='')
 else:
-    print 'Error: '+ last_output</string>
+    print('Error: '+ last_output, end='')</string>
 				<key>type</key>
 				<integer>3</integer>
 			</dict>
@@ -155,9 +156,9 @@ else:
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<false/>
+				<true/>
 				<key>clipboardtext</key>
-				<string></string>
+				<string>{query}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
@@ -200,7 +201,7 @@ else:
 				<string>Loading services list.</string>
 				<key>script</key>
 				<string>'''
-Shorten URL v1.2
+Shorten URL v1.3
 
 Github: https://github.com/hzlzh/Alfred-Workflows
 Author: hzlzh (hzlzh.dev@gmail.com)
@@ -273,7 +274,7 @@ print fb
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Shorten URL v1.2
+	<string># Shorten URL v1.3
 
 This workflow support URL shortener like (goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd), you can use Hotkey to trigger without open Alfred input window.
 

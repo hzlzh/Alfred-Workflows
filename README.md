@@ -13,7 +13,7 @@ Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 * * *
 
-## Shorten URL *(v1.2)*
+## Shorten URL *(v1.3)*
 ![4]
 
 [\[Download Link\]][8]    
