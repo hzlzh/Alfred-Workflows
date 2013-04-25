@@ -13,6 +13,31 @@ Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 * * *
 
+## Workflow Searcher *(v1.1)*
+![Workflow-Searcher-logo]
+
+[\[Download Link\]][11]    
+
+Search workflows from [AlfredWorkflow.com] List API   
+
+* Get the download & released link of the workflow you search.
+* API file Cache `6 minutes`(360s)
+
+![Workflow-Searcher-screenshot]
+
+#### Tips:
+
+* To use this workflow without copy/paste, just use Alfred trigger HotKey [\[#1\]](https://github.com/hzlzh/Alfred-Workflows/issues/1)  
+* How to custom your own service sort? [\[#2\]](https://github.com/hzlzh/Alfred-Workflows/issues/2)  
+
+ 
+![Shorten-URL-trigger][5]
+![Shorten-URL-notification][6]
+
+(If you need more services to be added, please let me know.)
+
+* * *
+
 ## Shorten URL *(v1.3)*
 ![4]
 
@@ -161,6 +186,11 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 [8]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Shorten-URL.alfredworkflow "Download Shorten-URL.alfredworkflow"
 [9]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Sublime-Like.alfredappearance
 [10]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Sublime-like.png
+[11]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Workflow-Searcher.alfredworkflow "Download Workflow-Searcher.alfredworkflow"
+
+[Workflow-Searcher-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Workflow-Searcher-logo.png
+[Workflow-Searcher-screenshot]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Workflow-Searcher-screenshot.png
+
 [SEO-Checker-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-logo.png
 [SEO-Checker.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/SEO-Checker.alfredworkflow
 [SEO-Checker-input]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/SEO-Checker-input.png
@@ -171,6 +201,7 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
  [GeekPark-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-logo.png
  [GeekPark.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/GeekPark.alfredworkflow
  [GeekPark-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-screenshot.png
-
+ 
+ [AlfredWorkflow.com]: https://github.com/hzlzh/AlfredWorkflow.com#workflows-json-api-updated-2013425
  
 [Alfred 2]: http://www.alfredapp.com/
