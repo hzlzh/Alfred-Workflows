@@ -13,7 +13,7 @@ Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 * * *
 
-## Workflow Searcher *(v1.1)*
+## Workflow Searcher *(v1.1 Released 2013.04.25)*
 ![Workflow-Searcher-logo]
 
 [\[Download Link\]][11]    
@@ -23,18 +23,11 @@ Search workflows from [AlfredWorkflow.com] List API
 * Get the download & released link of the workflow you search.
 * API file Cache `6 minutes`(360s)
 
+#### Examples:
+
 ![Workflow-Searcher-screenshot]
 
-#### Tips:
 
-* To use this workflow without copy/paste, just use Alfred trigger HotKey [\[#1\]](https://github.com/hzlzh/Alfred-Workflows/issues/1)  
-* How to custom your own service sort? [\[#2\]](https://github.com/hzlzh/Alfred-Workflows/issues/2)  
-
- 
-![Shorten-URL-trigger][5]
-![Shorten-URL-notification][6]
-
-(If you need more services to be added, please let me know.)
 
 * * *
 
