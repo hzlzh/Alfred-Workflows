@@ -2,6 +2,8 @@
 
 Make your Alfred more powerful. **([Alfred 2] powerpack required)**  
 
+For more workflows, check [AlfredWorkflow.com] and [Workflow Searcher]
+
 * * *
 
 ## Sublime Like *(Alfred 2 Theme)*
@@ -18,7 +20,7 @@ Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 [\[Download Link\]][11]    
 
-Search workflows from [AlfredWorkflow.com] List API   
+Search workflows from [AlfredWorkflow.com API] List   
 
 * Get the download & released link of the workflow you search.
 * API file Cache `6 minutes`(360s)
@@ -26,8 +28,6 @@ Search workflows from [AlfredWorkflow.com] List API
 #### Examples:
 
 ![Workflow-Searcher-screenshot]
-
-
 
 * * *
 
@@ -195,6 +195,8 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
  [GeekPark.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/GeekPark.alfredworkflow
  [GeekPark-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-screenshot.png
  
- [AlfredWorkflow.com]: https://github.com/hzlzh/AlfredWorkflow.com#workflows-json-api-updated-2013425
+ [AlfredWorkflow.com API]: https://github.com/hzlzh/AlfredWorkflow.com#workflows-json-api-updated-2013425
+ [AlfredWorkflow.com]: http://www.alfredworkflow.com/ 'Alfred Workflow List'
+ [Workflow Searcher]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Workflow-Searcher.alfredworkflow
  
 [Alfred 2]: http://www.alfredapp.com/
