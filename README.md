@@ -13,7 +13,7 @@ Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 * * *
 
-## Workflow Searcher *(v1.1 Released 2013.04.25)*
+## Workflow Searcher *(v1.2 Released 2013.04.25)*
 ![Workflow-Searcher-logo]
 
 [\[Download Link\]][11]    
