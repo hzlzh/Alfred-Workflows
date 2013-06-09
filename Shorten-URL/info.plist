@@ -51,7 +51,7 @@
 	<key>createdby</key>
 	<string>hzlzh</string>
 	<key>description</key>
-	<string>Shorten link with (goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd etc.)</string>
+	<string>Shorten link with (goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd, git.io etc.)</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -65,7 +65,7 @@
 				<integer>63</integer>
 				<key>script</key>
 				<string>'''
-Shorten URL v1.3
+Shorten URL v1.4
 
 Github: https://github.com/hzlzh/Alfred-Workflows
 Author: hzlzh (hzlzh.dev@gmail.com)
@@ -78,12 +78,13 @@ import urllib
 import urllib2
 import json
 import sys
+import re
 
 def getLink(type,service,url):
 
     if (('http' in url) == False):
         url = 'http://'+url
-        
+
     if type == 'goo.gl':
         terms = urllib.quote_plus(url.strip())
         data = json.dumps({"longUrl": url})
@@ -92,6 +93,14 @@ def getLink(type,service,url):
         f = urllib2.urlopen(req)
         data = f.read()
         output = json.loads(data)["id"]
+    elif type == 'git.io':
+        match = re.search('^(https?:\/\/)?(gist\.)?github.com', url)
+        if match:
+            terms = urllib.quote_plus(url.strip())
+            data = urllib2.urlopen(url=service, data='url=' + terms)
+            output = dict(data.info())['location']
+        else:
+            output = 'URL must be from github.com'
     else:
         try:
             terms = urllib.quote_plus(url.strip())
@@ -201,7 +210,7 @@ else:
 				<string>Loading services list.</string>
 				<key>script</key>
 				<string>'''
-Shorten URL v1.3
+Shorten URL v1.4
 
 Github: https://github.com/hzlzh/Alfred-Workflows
 Author: hzlzh (hzlzh.dev@gmail.com)
@@ -225,7 +234,8 @@ api = {
 2 : {'api_url':'https://api.weibo.com/2/short_url/shorten.json?access_token=2.00WSLtpB0GRHJ9745670860ceNWWiC&amp;url_long=','title':'t.cn','des':'http://t.cn/'},
 3 : {'api_url':'http://api.j.mp/v3//shorten?format=json&amp;login=hzlzh&amp;apiKey=R_e8bcc43adaa5f818cc5d8a544a17d27d&amp;longUrl=','title':'j.mp','des':'http://j.mp/'},
 4 : {'api_url':'http://is.gd/create.php?format=json&amp;url=','title':'is.gd','des':'http://is.gd/'},
-5 : {'api_url':'http://v.gd/create.php?format=json&amp;url=','title':'v.gd','des':'http://v.gd/'}
+5 : {'api_url':'http://v.gd/create.php?format=json&amp;url=','title':'v.gd','des':'http://v.gd/'},
+6 : {'api_url':'http://git.io','title':'git.io','des':'http://git.io/'}
 }
 
 fb = Feedback()
@@ -236,7 +246,7 @@ for title in api:
 print fb
 </string>
 				<key>subtext</key>
-				<string>Include goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd etc.</string>
+				<string>Include goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd, git.io etc.</string>
 				<key>title</key>
 				<string>Shorten URL</string>
 				<key>type</key>
@@ -274,9 +284,9 @@ print fb
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Shorten URL v1.3
+	<string># Shorten URL v1.4
 
-This workflow support URL shortener like (goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd), you can use Hotkey to trigger without open Alfred input window.
+This workflow support URL shortener like (goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd, git.io), you can use Hotkey to trigger without open Alfred input window.
 
 # Project Source
 
