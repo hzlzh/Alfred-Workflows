@@ -45,7 +45,7 @@ This workflow support URL shortener like below.
     j.mp/
     is.gd/
     v.gd/
-    git.io
+    git.io/
     
 You can use Hotkey to trigger without outpen Alfred input window.
 
