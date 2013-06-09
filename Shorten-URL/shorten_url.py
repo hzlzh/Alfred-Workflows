@@ -1,5 +1,5 @@
 '''
-Shorten URL v1.1
+Shorten URL v1.4
 
 Github: https://github.com/hzlzh/Alfred-Workflows
 Author: hzlzh (hzlzh.dev@gmail.com)
@@ -21,7 +21,8 @@ api = {
 't.cn' : {'api_url':'https://api.weibo.com/2/short_url/shorten.json?access_token=2.00WSLtpB0GRHJ9745670860ceNWWiC&url_long=','title':'t.cn','des':'http://t.cn/'},
 'j.mp' : {'api_url':'http://api.j.mp/v3//shorten?format=json&login=hzlzh&apiKey=R_e8bcc43adaa5f818cc5d8a544a17d27d&longUrl=','title':'j.mp','des':'http://j.mp/'},
 'is.gd' : {'api_url':'http://is.gd/create.php?format=json&url=','title':'is.gd','des':'http://is.gd/'},
-'v.gd' : {'api_url':'http://v.gd/create.php?format=json&url=','title':'v.gd','des':'http://v.gd/'}
+'v.gd' : {'api_url':'http://v.gd/create.php?format=json&url=','title':'v.gd','des':'http://v.gd/'},
+'git.io' : {'api_url':'http://git.io','title':'git.io','des':'http://git.io/'}
 }
 
 fb = Feedback()

@@ -31,7 +31,7 @@ Search workflows from [AlfredWorkflow.com API] List
 
 * * *
 
-## Shorten URL *(v1.3)*
+## Shorten URL *(v1.4)*
 ![4]
 
 [\[Download Link\]][8]    
@@ -45,6 +45,7 @@ This workflow support URL shortener like below.
     j.mp/
     is.gd/
     v.gd/
+    git.io
     
 You can use Hotkey to trigger without outpen Alfred input window.
 
