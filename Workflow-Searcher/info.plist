@@ -93,6 +93,8 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>2B3CC67B-A963-4638-BFCA-A3FE12BA5587</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -108,6 +110,8 @@
 			<string>alfred.workflow.action.openurl</string>
 			<key>uid</key>
 			<string>64842A1D-75E7-4103-BD08-4DCB0AA137AE</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -121,6 +125,8 @@
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>741DB4F2-5EC9-478D-8CBB-463E10EFC171</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -142,6 +148,8 @@
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>5781539F-3A42-4724-BE8A-AF9E749F1FDE</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -189,7 +197,7 @@ function load_data($api) {
         {
             $xml = @file_get_contents( $api,false, $context);
             $data = $xml;            
-            FileCache::set($fck,$data,360);
+            FileCache::set($fck,$data,86400);
         }
     $obj=json_decode($data);
 
@@ -247,6 +255,8 @@ echo $wf-&gt;toxml();</string>
 			<string>alfred.workflow.input.scriptfilter</string>
 			<key>uid</key>
 			<string>ABD9DFE8-DA6B-4F46-AD34-4F6926FE883C</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -270,6 +280,8 @@ echo $wf-&gt;toxml();</string>
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>A97E7797-7E7A-43C6-BFCE-863F4C2B3B4A</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -283,6 +295,8 @@ echo $wf-&gt;toxml();</string>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
 			<string>5C0825B6-635B-478A-839C-3457CD7772BE</string>
+			<key>version</key>
+			<integer>0</integer>
 		</dict>
 	</array>
 	<key>readme</key>
