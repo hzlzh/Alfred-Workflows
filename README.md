@@ -163,8 +163,9 @@ Release Note
 * Authenticate.app supported & root password auto-saved
 * Extension Updater supported
 
-## Credits
-Created by @[hzlzh](https://twitter.com/hzlzh 'Contact me on Twitter') under [MIT LICENSE](http://rem.mit-license.org/) 
+## License
+
+Released under [MIT](http://rem.mit-license.org/)  LICENSE.
 
 Post: [http://zlz.im/tag/alfred](http://zlz.im/tag/alfred)  
 Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
