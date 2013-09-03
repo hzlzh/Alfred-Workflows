@@ -121,8 +121,10 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 [\[Download Link\]][CDN-Searcher.alfredworkflow]
 
-快速获得 staticfile.org CDN 链接的
-这是第一版，下一版会支持版本选择等功能
+* 快速获得 JS/CSS/Image 等项目的 CDN 的链接，如：jQuery、Bootstrap等
+* 这是第一版，下一版会支持版本选择等功能
+* API文件会在本地缓存，时间为24小时
+* CDN服务使用：[http://staticfile.org/](http://staticfile.org/)
 	
 ![CDN-Searcher-latest]
 
