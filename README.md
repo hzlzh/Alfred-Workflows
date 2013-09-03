@@ -115,6 +115,19 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 * * *
 
+## CDN Searcher *(v1.0)*
+
+![CDN-Searcher-logo]
+
+[\[Download Link\]][CDN-Searcher.alfredworkflow]
+
+快速获得 staticfile.org CDN 链接的
+这是第一版，下一版会支持版本选择等功能
+	
+![CDN-Searcher-latest]
+
+* * *
+
 ## XAMPP Control *(v1.1)*
 ![XAMPP Control Logo]
 
@@ -196,9 +209,16 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
  [GeekPark-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-logo.png
  [GeekPark.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/GeekPark.alfredworkflow
  [GeekPark-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-screenshot.png
+ [CDN-Searcher-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/CDN-Searcher-logo.png
+ [CDN-Searcher.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/CDN-Searcher.alfredworkflow
+ [CDN-Searcher-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/CDN-Searcher-latest.png
+ 
+ 
+ 
+ 
  
  [AlfredWorkflow.com API]: https://github.com/hzlzh/AlfredWorkflow.com#workflows-json-api-updated-2013425
  [AlfredWorkflow.com]: http://www.alfredworkflow.com/ 'Alfred Workflow List'
- [Workflow Searcher]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Workflow-Searcher.alfredworkflow
+ [Workflow Searcher]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Workflow-Searcher.alfredworkflow   
  
 [Alfred 2]: http://www.alfredapp.com/
