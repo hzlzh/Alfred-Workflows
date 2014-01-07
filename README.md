@@ -130,6 +130,14 @@ Check domain's PR, Alexa, etc instantly in Alfred feedback.
 
 * * *
 
+## Quick Open Finder *(v1.0)*
+
+[\[Download Link\]][Quick-Open-Finder.alfredworkflow]
+
+* Quick open `Finder.app` wirh hotkey.
+
+* * *
+
 ## XAMPP Control *(v1.1)*
 ![XAMPP Control Logo]
 
@@ -215,6 +223,7 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
  [CDN-Searcher.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/CDN-Searcher.alfredworkflow
  [CDN-Searcher-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/CDN-Searcher-latest.png
  
+ [Quick-Open-Finder.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Quick-Open-Finder.alfredworkflow
  
  
  
