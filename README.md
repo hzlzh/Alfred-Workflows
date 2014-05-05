@@ -231,7 +231,7 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 [V2EX-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-latest.png
 [V2EX.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/V2EX.alfredworkflow
  [GeekPark-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-logo.png
- [Copy-Path-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Copy-Path.png
+ [Copy-Path-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Copy-Path-logo.png
  [GeekPark.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/GeekPark.alfredworkflow
  [GeekPark-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-screenshot.png
  [CDN-Searcher-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/CDN-Searcher-logo.png
