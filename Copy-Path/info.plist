@@ -4,15 +4,13 @@
 <dict>
 	<key>bundleid</key>
 	<string>com.copy-path.hzlzh</string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
-		<key>1A76CEC1-38BD-4B45-BF44-83DB989104F6</key>
+		<key>0087609E-6564-4C39-A1BC-BC72E3EA0589</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>BCC68842-D8B9-4916-A63B-B643DCC27149</string>
+				<string>08407005-847B-487E-883A-A25B62CAC23E</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -20,18 +18,18 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>F2C59903-80A4-4831-8DD2-C86975082D8D</string>
+				<string>AAE862D9-AE15-41A8-A053-8DFC51F7E0DA</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
 			</dict>
 		</array>
-		<key>BF5C03E2-0164-4CA6-BD9B-5C8194D0626C</key>
+		<key>591D08A4-2B08-4DEB-B779-FA98A5EEEBB3</key>
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>1A76CEC1-38BD-4B45-BF44-83DB989104F6</string>
+				<string>0087609E-6564-4C39-A1BC-BC72E3EA0589</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -52,31 +50,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>lastpathcomponent</key>
-				<false/>
-				<key>onlyshowifquerypopulated</key>
-				<false/>
-				<key>output</key>
-				<integer>0</integer>
-				<key>removeextension</key>
-				<false/>
-				<key>sticky</key>
-				<false/>
-				<key>text</key>
-				<string>{query}</string>
-				<key>title</key>
-				<string>Path Copied to Clipboard</string>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.output.notification</string>
-			<key>uid</key>
-			<string>BCC68842-D8B9-4916-A63B-B643DCC27149</string>
-			<key>version</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>applescript</key>
 				<string>on alfred_script(q)
   tell application "Finder"
@@ -87,12 +60,37 @@
   return q
 end alfred_script</string>
 				<key>cachescript</key>
-				<true/>
+				<false/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.action.applescript</string>
 			<key>uid</key>
-			<string>1A76CEC1-38BD-4B45-BF44-83DB989104F6</string>
+			<string>0087609E-6564-4C39-A1BC-BC72E3EA0589</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>1</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Path Copied!</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>08407005-847B-487E-883A-A25B62CAC23E</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -119,7 +117,7 @@ end alfred_script</string>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
-			<string>BF5C03E2-0164-4CA6-BD9B-5C8194D0626C</string>
+			<string>591D08A4-2B08-4DEB-B779-FA98A5EEEBB3</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -127,14 +125,14 @@ end alfred_script</string>
 			<key>config</key>
 			<dict>
 				<key>autopaste</key>
-				<true/>
+				<false/>
 				<key>clipboardtext</key>
 				<string>{query}</string>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>F2C59903-80A4-4831-8DD2-C86975082D8D</string>
+			<string>AAE862D9-AE15-41A8-A053-8DFC51F7E0DA</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -157,22 +155,22 @@ Copy files' path in Finder to Clipboard.
 (If you need more services to be added, please let me know.)</string>
 	<key>uidata</key>
 	<dict>
-		<key>1A76CEC1-38BD-4B45-BF44-83DB989104F6</key>
+		<key>0087609E-6564-4C39-A1BC-BC72E3EA0589</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>BCC68842-D8B9-4916-A63B-B643DCC27149</key>
+		<key>08407005-847B-487E-883A-A25B62CAC23E</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>BF5C03E2-0164-4CA6-BD9B-5C8194D0626C</key>
+		<key>591D08A4-2B08-4DEB-B779-FA98A5EEEBB3</key>
 		<dict>
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>F2C59903-80A4-4831-8DD2-C86975082D8D</key>
+		<key>AAE862D9-AE15-41A8-A053-8DFC51F7E0DA</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
