@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.copy-path.hzlzh</string>
+	<key>category</key>
+	<string>Productivity</string>
+	<key>connections</key>
+	<dict>
+		<key>1A76CEC1-38BD-4B45-BF44-83DB989104F6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BCC68842-D8B9-4916-A63B-B643DCC27149</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F2C59903-80A4-4831-8DD2-C86975082D8D</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+		<key>BF5C03E2-0164-4CA6-BD9B-5C8194D0626C</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1A76CEC1-38BD-4B45-BF44-83DB989104F6</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>hzlzh</string>
+	<key>description</key>
+	<string>Copy files' path in Finder to Clipboard.</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Copy Path</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>output</key>
+				<integer>0</integer>
+				<key>removeextension</key>
+				<false/>
+				<key>sticky</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>Path Copied to Clipboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>BCC68842-D8B9-4916-A63B-B643DCC27149</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>applescript</key>
+				<string>on alfred_script(q)
+  tell application "Finder"
+	set theItems to selection
+	set filePath to (POSIX path of (the selection as alias))
+  end tell
+  set q to filePath
+  return q
+end alfred_script</string>
+				<key>cachescript</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.applescript</string>
+			<key>uid</key>
+			<string>1A76CEC1-38BD-4B45-BF44-83DB989104F6</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>hotkey</key>
+				<integer>35</integer>
+				<key>hotmod</key>
+				<integer>1179648</integer>
+				<key>hotstring</key>
+				<string>P</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>BF5C03E2-0164-4CA6-BD9B-5C8194D0626C</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<true/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>F2C59903-80A4-4831-8DD2-C86975082D8D</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string># Shorten URL v1.0
+
+Copy files' path in Finder to Clipboard.
+
+# Project Source
+
+* Github: https://github.com/hzlzh/Alfred-Workflows
+* Blog Post: http://hzlzh.io/Alfred-Workflows/
+
+# Contact
+
+* Zed Huang (hzlzh.dev@gmail.com)
+* Twitter: https://twitter.com/hzlzh
+
+(If you need more services to be added, please let me know.)</string>
+	<key>uidata</key>
+	<dict>
+		<key>1A76CEC1-38BD-4B45-BF44-83DB989104F6</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>BCC68842-D8B9-4916-A63B-B643DCC27149</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>BF5C03E2-0164-4CA6-BD9B-5C8194D0626C</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>F2C59903-80A4-4831-8DD2-C86975082D8D</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://hzlzh.io/</string>
+</dict>
+</plist>

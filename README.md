@@ -15,6 +15,19 @@ Make your Alfred look like [Sublime Text 2] `⌘ +Sift +P`
 
 * * *
 
+## Copy Path *(v1.0 Released 2014.05.05)*
+![Copy-Path-logo]
+
+[\[Download Link\]][12]    
+
+Copy files' path in Finder to Clipboard.
+
+#### Examples:
+
+![Copy-Path-screenshot]
+
+* * *
+
 ## Workflow Searcher *(v1.2 Released 2013.04.25)*
 ![Workflow-Searcher-logo]
 
@@ -205,6 +218,7 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 [9]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Sublime-Like.alfredappearance
 [10]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Sublime-like.png
 [11]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Workflow-Searcher.alfredworkflow "Download Workflow-Searcher.alfredworkflow"
+[12]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Copy-Path.alfredworkflow "Download Copy-Path.alfredworkflow"
 
 [Workflow-Searcher-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Workflow-Searcher-logo.png
 [Workflow-Searcher-screenshot]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Workflow-Searcher-screenshot.png
@@ -217,13 +231,17 @@ Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 [V2EX-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/V2EX-latest.png
 [V2EX.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/V2EX.alfredworkflow
  [GeekPark-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-logo.png
+ [Copy-Path-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Copy-Path.png
  [GeekPark.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/GeekPark.alfredworkflow
  [GeekPark-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/GeekPark-screenshot.png
  [CDN-Searcher-logo]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/CDN-Searcher-logo.png
  [CDN-Searcher.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/CDN-Searcher.alfredworkflow
  [CDN-Searcher-latest]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/CDN-Searcher-latest.png
+ [Copy-Path-screenshot]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/extra/Copy-Path-demo.png
+
  
  [Quick-Open-Finder.alfredworkflow]: https://github.com/hzlzh/Alfred-Workflows/raw/master/Downloads/Quick-Open-Finder.alfredworkflow
+
  
  
  
