@@ -18,7 +18,7 @@
 			</dict>
 			<dict>
 				<key>destinationuid</key>
-				<string>AAE862D9-AE15-41A8-A053-8DFC51F7E0DA</string>
+				<string>DB7D6EAB-2AEE-4BAF-B97E-E0E613BDB994</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -111,15 +111,13 @@ end alfred_script</string>
 				<false/>
 				<key>modsmode</key>
 				<integer>0</integer>
-				<key>relatedAppsMode</key>
-				<integer>0</integer>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.trigger.hotkey</string>
 			<key>uid</key>
 			<string>591D08A4-2B08-4DEB-B779-FA98A5EEEBB3</string>
 			<key>version</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -132,7 +130,7 @@ end alfred_script</string>
 			<key>type</key>
 			<string>alfred.workflow.output.clipboard</string>
 			<key>uid</key>
-			<string>AAE862D9-AE15-41A8-A053-8DFC51F7E0DA</string>
+			<string>DB7D6EAB-2AEE-4BAF-B97E-E0E613BDB994</string>
 			<key>version</key>
 			<integer>0</integer>
 		</dict>
@@ -170,7 +168,7 @@ Copy files' path in Finder to Clipboard.
 			<key>ypos</key>
 			<real>10</real>
 		</dict>
-		<key>AAE862D9-AE15-41A8-A053-8DFC51F7E0DA</key>
+		<key>DB7D6EAB-2AEE-4BAF-B97E-E0E613BDB994</key>
 		<dict>
 			<key>ypos</key>
 			<real>130</real>
