@@ -238,7 +238,7 @@ if($orig){
 
 $results = $wf-&gt;results();
 if ( count( $results ) == 0 ):
-    $wf-&gt;result( 'alfredworkflow_500', 'Please make sure your internet works well.', 'No responce, try again!', 'Please make sure your internet works well.', 'icon.png' );
+    $wf-&gt;result( 'alfredworkflow_500', 'Please make sure your internet works well.', 'No response, try again!', 'Please make sure your internet works well.', 'icon.png' );
 endif;
 
 echo $wf-&gt;toxml();</string>

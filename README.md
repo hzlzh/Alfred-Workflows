@@ -203,7 +203,7 @@ Release Note
 
 Released under [MIT](http://rem.mit-license.org/)  LICENSE.
 
-Post: [http://zlz.im/tag/alfred](http://zlz.im/tag/alfred)  
+Post: [http://hzlzh.io/tag/alfred](http://hzlzh.io/tag/alfred)  
 Github: [hzlzh/Alfred-Workflows/](https://github.com/hzlzh/Alfred-Workflows/)
 
 
