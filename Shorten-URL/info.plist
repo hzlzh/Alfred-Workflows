@@ -65,7 +65,7 @@
 				<integer>63</integer>
 				<key>script</key>
 				<string>'''
-Shorten URL v1.4
+Shorten URL v1.5
 
 Github: https://github.com/hzlzh/Alfred-Workflows
 Author: hzlzh (hzlzh.dev@gmail.com)
@@ -210,7 +210,7 @@ else:
 				<string>Loading services list.</string>
 				<key>script</key>
 				<string>'''
-Shorten URL v1.4
+Shorten URL v1.5
 
 Github: https://github.com/hzlzh/Alfred-Workflows
 Author: hzlzh (hzlzh.dev@gmail.com)
@@ -284,7 +284,7 @@ print fb
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># Shorten URL v1.4
+	<string># Shorten URL v1.5
 
 This workflow support URL shortener like (goo.gl, bit.ly, t.cn, j.mp, is.gd, v.gd, git.io), you can use Hotkey to trigger without open Alfred input window.
 

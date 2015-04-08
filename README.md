@@ -44,7 +44,7 @@ Search workflows from [AlfredWorkflow.com API] List
 
 * * *
 
-## Shorten URL *(v1.4)*
+## Shorten URL *(v1.5)*
 ![4]
 
 [\[Download Link\]][8]    
