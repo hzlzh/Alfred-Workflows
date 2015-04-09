@@ -61,7 +61,7 @@ This workflow support URL shortener like below.
     git.io/
     
 You can use Hotkey to trigger without outpen Alfred input window.  
-Also available in [PopClip Extension](http://pilotmoon.com/popclip/extensions/page/ShortenLink)
+Also available in [PopClip Extension](https://github.com/hzlzh/PopClip-Extensions)
 
 #### Tips:
 
