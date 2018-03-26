@@ -16,7 +16,7 @@ import sys
 query = sys.argv[1]
 
 api = {
-'goo.gl' : {'api_url':'https://www.googleapis.com/urlshortener/v1/url','title':'goo.gl','des':'http://goo.gl/'},
+'goo.gl' : {'api_url':'https://www.googleapis.com/urlshortener/v1/url?key=AIzaSyDuA-zkiCnSwKk5nbaThRjxdfYg8Riz6X4','title':'goo.gl','des':'http://goo.gl/'},
 'bit.ly' : {'api_url':'https://api-ssl.bitly.com/v3/shorten?format=json&login=hzlzh&apiKey=R_e8bcc43adaa5f818cc5d8a544a17d27d&longUrl=','title':'bit.ly','des':'http://bit.ly/'},
 't.cn' : {'api_url':'https://api.weibo.com/2/short_url/shorten.json?access_token=2.00WSLtpB0GRHJ9745670860ceNWWiC&source=5786724301&url_long=','title':'t.cn','des':'http://t.cn/'},
 'j.mp' : {'api_url':'http://api.j.mp/v3//shorten?format=json&login=hzlzh&apiKey=R_e8bcc43adaa5f818cc5d8a544a17d27d&longUrl=','title':'j.mp','des':'http://j.mp/'},
