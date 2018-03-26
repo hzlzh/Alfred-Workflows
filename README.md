@@ -74,6 +74,22 @@ Also available in [PopClip Extension](https://github.com/hzlzh/PopClip-Extension
 
 (If you need more services to be added, please let me know.)
 
+### goo.gl setup
+
+For this to work you need to add your [Google API key](https://developers.google.com/url-shortener/v1/getting_started#APIKey) first by modifying the corresponding string of **short** Script Filter in Alfred Workflow.
+
+Default string:
+
+``` python
+0 : {'api_url':'https://www.googleapis.com/urlshortener/v1/url','title':'goo.gl','des':'http://goo.gl/'},
+```
+
+You need to add a `?key=` value to `url`:
+
+``` python
+0 : {'api_url':'https://www.googleapis.com/urlshortener/v1/url?key=YOUR_API_KEY_HERE','title':'goo.gl','des':'http://goo.gl/'},
+```
+
 * * *
 
 ## SEO Checker *(v1.0)*
