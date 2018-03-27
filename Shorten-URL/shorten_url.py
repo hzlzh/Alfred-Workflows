@@ -22,7 +22,7 @@ api = {
 'j.mp' : {'api_url':'http://api.j.mp/v3//shorten?format=json&login=hzlzh&apiKey=R_e8bcc43adaa5f818cc5d8a544a17d27d&longUrl=','title':'j.mp','des':'http://j.mp/'},
 'is.gd' : {'api_url':'http://is.gd/create.php?format=json&url=','title':'is.gd','des':'http://is.gd/'},
 'v.gd' : {'api_url':'http://v.gd/create.php?format=json&url=','title':'v.gd','des':'http://v.gd/'},
-'git.io' : {'api_url':'http://git.io','title':'git.io','des':'http://git.io/'}
+'git.io' : {'api_url':'https://git.io','title':'git.io','des':'https://git.io/'}
 }
 
 fb = Feedback()
