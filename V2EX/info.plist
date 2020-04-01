@@ -170,7 +170,7 @@ $wf = new Workflows();
 $orig = "{query}";
 
 if($orig == 'n' || $orig == 'new' ){
-    $obj = load_data('http://v2ex.com/api/topics/latest.json');
+    $obj = load_data('https://v2ex.com/api/topics/latest.json');
     $int = 1;
     
     if($obj != null):
@@ -190,7 +190,7 @@ if($orig == 'n' || $orig == 'new' ){
     endif;
 
 }else if(strstr($orig,'@')){
-    $obj = load_data('http://v2ex.com/api/topics/show.json?username='.substr($orig,1));
+    $obj = load_data('https://v2ex.com/api/topics/show.json?username='.substr($orig,1));
     $int = 1;
     
     if($obj != null):
